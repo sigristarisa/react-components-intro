@@ -1,8 +1,10 @@
 const MainButtons = () => {
+  const searchBtn = <button>Google Search</button>;
+  const feelingLuckyBtn = <button>Feeling Lucky</button>;
   return (
     <div className="buttons">
-      <button>Google Search</button>
-      <button>Feeling Lucky</button>
+      {searchBtn}
+      {feelingLuckyBtn}
     </div>
   );
 };
