@@ -1,9 +1,6 @@
 const Footer = () => {
-  return (
-    <footer>
-      <p className="country">United Kingdom</p>
-    </footer>
-  );
+  const country = <p className="country">United Kingdom</p>;
+  return <footer>{country}</footer>;
 };
 
 export default Footer;
