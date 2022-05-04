@@ -1,9 +1,11 @@
 const LeftMenu = () => {
+  const aboutBtn = "About";
+  const storeBtn = "Store";
   return (
     <nav className="left-menu">
       <ul>
-        <li>About</li>
-        <li>Store</li>
+        <li>{aboutBtn}</li>
+        <li>{storeBtn}</li>
       </ul>
     </nav>
   );
