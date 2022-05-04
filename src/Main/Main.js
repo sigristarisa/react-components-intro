@@ -1,3 +1,5 @@
+import MainButtons from "./MainButtons";
+
 const Main = () => {
   return (
     <main>
@@ -7,10 +9,7 @@ const Main = () => {
         alt="Google logo"
       />
       <input className="search-bar" type="search" />
-      <div className="buttons">
-        <button>Google Search</button>
-        <button>Feeling Lucky</button>
-      </div>
+      <MainButtons />
     </main>
   );
 };
